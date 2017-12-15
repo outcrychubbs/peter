@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{b4205ec2-f32c-4d7f-aec9-8cc3d8db0ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{ad1f475a-e0cd-4997-8986-6e6b74d3ca42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{ba19c5c1-f40d-45da-a595-2a52906eda1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="levels">
+      <UniqueIdentifier>{dbc8fe85-d684-4b65-ba06-9d559929f128}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlas.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLO.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="StdWilUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLO.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="math_ext.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="RectF.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="StdWilUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectorf.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level1.txt">
+      <Filter>levels</Filter>
+    </Text>
+    <Text Include="level2.txt">
+      <Filter>levels</Filter>
+    </Text>
+    <Text Include="level3.txt">
+      <Filter>levels</Filter>
+    </Text>
+    <Text Include="level4.txt">
+      <Filter>levels</Filter>
+    </Text>
+    <Text Include="level5.txt">
+      <Filter>levels</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
